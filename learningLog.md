@@ -280,6 +280,116 @@ Frontend Running: ✅
 Git Repository Initialized: ✅
 GitHub Connected: ✅
 
-Ready for:
-Phase 0 - Day 2
-Git Workflow, Branching Strategy, Commit Standards, and Debugging Fundamentals.
+# Learning Log
+
+## Phase 0 - Day 2
+
+**Date:** June 25, 2026
+
+## Goal
+
+Build a professional repository foundation before implementing application features.
+
+---
+
+## Topics Learned
+
+### Repository Organization
+
+* Importance of a well-structured repository
+* Separation of backend, frontend, documentation, database, and scripts
+* Benefits of a Monorepo architecture
+
+### Documentation Driven Development
+
+* Why documentation should be prepared before implementation
+* Purpose of README
+* Documentation folder organization
+* Architecture and API documentation planning
+
+### Git Fundamentals
+
+* Git does not track empty directories
+* Difference between `.gitkeep` and `README.md`
+* Using `README.md` files to document directory purpose
+
+### Git Branching Strategy
+
+Studied GitFlow and different branching models.
+
+Selected the following workflow for Trailo:
+
+```
+main
+│
+└── develop
+      │
+      └── feature/*
+```
+
+### Branch Responsibilities
+
+* `main` → Stable production-ready code
+* `develop` → Integration branch
+* `feature/*` → Individual feature development
+
+### Git Commands Learned
+
+* `git fetch origin`
+* `git checkout develop`
+* `git checkout -b develop origin/develop`
+* Branch tracking between local and remote
+
+### Dependency Management
+
+Learned that switching branches does not require reinstalling project dependencies unless dependency files change.
+
+---
+
+## Deliverables Completed
+
+* Production repository structure
+* Professional README
+* Documentation directories
+* Database directories
+* Scripts directory
+* Develop branch
+* Git workflow finalized
+
+---
+
+## Key Takeaways
+
+* A clean repository structure improves scalability and maintainability.
+* Documentation is an integral part of software engineering, not an afterthought.
+* Git tracks files rather than empty directories.
+* A lightweight GitFlow (`main → develop → feature/*`) is well suited for Trailo.
+* Investing in engineering practices early reduces complexity as the project grows.
+
+---
+
+## Challenges Faced
+
+* Understanding why Git ignores empty folders.
+* Choosing between `.gitkeep` and `README.md`.
+* Understanding the difference between GitFlow and a simplified branching strategy.
+* Clarifying how to work with branches created through the GitHub UI versus locally.
+
+---
+
+## Resolution
+
+* Used `README.md` files to both track directories and document their purpose.
+* Adopted a simplified Git workflow appropriate for a solo production-grade project.
+* Confirmed that changing branches does not require reinstalling dependencies.
+
+---
+
+## Status
+
+**Phase 0 – Day 2 Completed ✅**
+
+Repository foundation is complete and ready for architecture and implementation work in Day 3.
+
+
+

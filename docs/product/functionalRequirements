@@ -1,0 +1,108 @@
+# Functional Requirements
+
+## Core Modules
+
+### Authentication
+
+- User Registration
+- Login
+- Logout
+- Profile Management
+
+---
+
+### Projects
+
+- Create Project
+- Update Project
+- Delete Project
+- Invite Members
+- Manage Roles
+
+---
+
+### Boards
+
+- Default Board Creation
+- Column Management
+- Ticket Organization
+
+---
+
+### Tickets
+
+- Create Ticket
+- Update Ticket
+- Delete Ticket
+- Assign Ticket
+- Change Priority
+- Move Across Columns
+
+---
+
+### Ticket Sequencing
+
+Every project maintains an independent ticket sequence.
+
+Example
+
+Project RRS
+
+RRS-1
+
+RRS-2
+
+RRS-3
+
+Project ACME
+
+ACME-1
+
+ACME-2
+
+---
+
+### Dependencies
+
+- Blocks
+- Blocked By
+
+Cycle Detection Required
+
+---
+
+### Comments
+
+- Create
+- Edit
+- Delete
+- Mentions
+
+---
+
+### Notifications
+
+- Assignment
+- Mentions
+- Status Updates
+
+---
+
+### Search
+
+- Search by Ticket Key
+- Search by Title
+- Search by Description
+- Filter by Status
+- Filter by Priority
+- Filter by Assignee
+
+---
+
+### Activity Feed
+
+- Ticket History
+- Assignment Changes
+- Status Changes
+- Comments
+- Member Changes
